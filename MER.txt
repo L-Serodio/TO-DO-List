@@ -1,0 +1,16 @@
+Table users:
+    columns: {
+        id: string,
+        name: string,
+        created_at: timestamp
+    }
+
+
+
+Table tasks:
+    columns: {
+        id: string,
+        title: string,
+        description: string,
+        created_at: timestamp
+    }
