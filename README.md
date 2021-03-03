@@ -1,2 +1,2 @@
 # TO-DO-List
-To Do list made with node.js
+A REST API with node.js for a to-do list application

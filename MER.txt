@@ -12,5 +12,8 @@ Table tasks:
         id: string,
         title: string,
         description: string,
+        week_day: string,
+        date: Date,
+        done: boolean
         created_at: timestamp
     }
