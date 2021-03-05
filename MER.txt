@@ -1,19 +1,19 @@
-Table users:
+Table users: --> Done
     columns: {
-        id: string,
+        id: string, --> PrimaryKey
         name: string,
+        email: string,
         created_at: timestamp
     }
 
 
 
-Table tasks:
+Table tasks: TODO
     columns: {
-        id: string,
+        id: string, --> PrimaryKey
+        user_id: string, --> ForeignKey
         title: string,
         description: string,
-        week_day: string,
-        date: Date,
-        done: boolean
+        done: boolean,
         created_at: timestamp
     }
