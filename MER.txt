@@ -14,6 +14,6 @@ Table tasks: TODO
         user_id: string, --> ForeignKey
         title: string,
         description: string,
-        done: boolean,
+        isDone: boolean,
         created_at: timestamp
     }
