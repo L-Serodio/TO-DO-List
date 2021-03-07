@@ -1,7 +1,7 @@
 # TO-DO-List
 A REST API with node.js for a to-do list application
 
-## libraries used:
+## Libraries used: 
 - [Typescript](https://github.com/microsoft/TypeScript)
 - [Express](https://github.com/expressjs/express)
 - [TypeORM](https://github.com/typeorm/typeorm)
