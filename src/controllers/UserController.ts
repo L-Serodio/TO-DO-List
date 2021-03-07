@@ -13,10 +13,14 @@ class UserController {
         const userAlreadyExists = await usersRepo.findOne({ email });
 
         if (userAlreadyExists) {
-            return response.status(400).json({ message: "User already exists!"});
+            return response.status(400).json({ error: "User already exists!"});
         }
-        // TO-DO : Estudar typescript, express, typeORM e react(ou outro front) ... 😎👌
 
+        const user = usersRepo.create({ name, email });
+
+        await usersRepo.save(user);
+
+        return response.status(201).json(user);
     }
 }
 
