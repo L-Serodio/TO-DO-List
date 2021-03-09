@@ -3,7 +3,7 @@ import { getCustomRepository } from "typeorm";
 import { TasksRepository } from "../repositories/TasksRepository";
 import { UsersRepository } from "../repositories/UsersRepository";
 
-
+//estudar e modificar a questao das rotas
 
 class TaskController {
     async create(request: Request, response: Response) {
